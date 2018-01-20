@@ -8,7 +8,7 @@
   cursor: pointer;
   position: relative;
   padding-top: 5px;
-  max-width: 410px;
+  max-width: 100%;
 }
 
 .episodeContainer.expanded {
@@ -18,7 +18,7 @@
 .episodeName {
   font-size: 20px;
   font-weight: 300;
-  width: 350px;
+  width: 300px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
