@@ -7,3 +7,11 @@
 .showInfo > span {
   margin-bottom: 20px;
 }
+
+@media (min-width:801px) {
+  .showInfo {
+    width: 50%;
+    margin: 0 auto;
+  }
+}
+

@@ -8,7 +8,13 @@
   cursor: pointer;
   position: relative;
   padding-top: 5px;
-  max-width: 100%;
+  width: 90%;
+}
+
+@media (min-width:801px) {
+  .episodeContainer {
+    width: 50%;
+  }
 }
 
 .episodeContainer.expanded {
@@ -18,7 +24,6 @@
 .episodeName {
   font-size: 20px;
   font-weight: 300;
-  width: 300px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
