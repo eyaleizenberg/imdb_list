@@ -6,15 +6,15 @@ const { selectors, actions, superReducer } = reduxCornell({
     episodes: {
       loaded: false,
       data: [],
-      expanded: {}
+      expanded: {},
     },
     showInfo: {
-      visible: false
+      visible: false,
     },
     currentUser: {
-      name: null
-    }
-  }
+      name: null,
+    },
+  },
 });
 
 export { selectors, actions };

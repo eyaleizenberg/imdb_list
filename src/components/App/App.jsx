@@ -1,15 +1,15 @@
 import React, { PureComponent } from 'react';
+import PropTypes from 'prop-types';
 import './App.css';
 import EpisodesContainer from '../../containers/episodesContainer';
-import PropTypes from 'prop-types';
 import Toggle from '../Toggle/Toggle';
 import ShowInfo from '../ShowInfo/ShowInfo';
 
 class App extends PureComponent {
   static propTypes = {
     showInfoVisible: PropTypes.bool.isRequired,
-    toggleShowInfoVisible: PropTypes.func.isRequired
-  }
+    toggleShowInfoVisible: PropTypes.func.isRequired,
+  };
 
   renderContent() {
     if (this.props.showInfoVisible) {
