@@ -5,9 +5,9 @@ const showId = 'tt4574334';
 const apiKey = '409cb9e';
 
 export const fetchStrangerThings = () => (dispatch) => {
-  imdb.getById(showId, { apiKey }).then(results => {
-    results.episodes().then(episodes => {
+  imdb.getById(showId, { apiKey }).then((results) => {
+    results.episodes().then((episodes) => {
       dispatch(actions.concatEpisodesData(episodes));
-    })
+    });
   });
-}
+};
